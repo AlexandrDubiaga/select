@@ -1,0 +1,32 @@
+.content{
+    background-color:deepskyblue;
+    height:300px;
+    text-align: center
+}
+
+.select {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 5%;
+    height: 34px;
+    padding: 0 23px 0 11px;
+    margin: 0;
+    border-radius: 0;
+    border: 1px solid #cbd1d4;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #333;
+    /* Убираем стандартное поведение для браузеров (без него селекты будут системные) */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    /* Иконка стрелки вниз для селекта  */
+ 
+}
+.mainTitle{
+    text-align: center;
+    margin-left: 50px;
+    font-size:30px;
+}
